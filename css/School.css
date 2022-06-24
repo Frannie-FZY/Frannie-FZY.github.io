@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(166, 232, 234);
+}
+
+.inner{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(104, 180, 180); */
+    position: absolute;
+    /* 设置绝对定位 */
+    display: flex;
+    justify-content: center;
+    /* 设置弹性布局，弹性项目居中紧挨着填充。*/
+    left: 0;
+    right: 0;
+    background-image: url(../imagines/WechatIMG327.jpeg);
+    top: 0px;
+    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 350px;
+    margin: auto;
+    top: 100px;
+    height: 100px;
+    width: 1000px;
+    border-top: 4px solid rgb(83, 43, 226);
+}
+
+.nav a{
+    font-size: 50px;
+    width: 300px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 18px;
+    margin: 22px 0;
+}
+
+a:link{
+    color: #fff;
+    /* 设置未点击的超链接颜色为白色 */
+    text-decoration: none;
+    /* 不添加超链接下划线 */
+}
+
+a:visited{
+    color: blanchedalmond;
+    /* 设置点击后的超链接颜色 */
+    text-decoration: none;
+    /* 不添加超链接下划线 */
+}
+
+a:hover {
+    color:#bae760;  
+     /* 鼠标悬浮在连接上的颜色 */
+    text-decoration:none;    
+}
+
+
+.EB{
+    position: absolute;
+    /* 设置绝对定位 */
+    left: 900px;
+    right: 50px;
+    /* 总体设置在整个版面的右侧区域 */
+    top: 230px;
+    background-image: url(../imagines/WechatIMG325.jpeg);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 45px;
+    border-radius: 5px;
+}
+
+.project{
+    position: absolute;
+    /* 设置绝对定位 */
+    left: 50px;
+    right: 850px;
+    /* 整体设置在版面的左侧区域 */
+    top: 530px;
+    background-image: url(../imagines/WechatIMG325.jpeg);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 45px;
+    border-radius: 5px;
+}
+
+.association{
+    position: absolute;
+    /* 设置绝对定位 */
+    left: 900px;
+    right: 50px;
+    /* 总体设置在整个版面的右侧区域 */
+    top: 930px;
+    background-image: url(../imagines/WechatIMG325.jpeg);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 45px;
+    border-radius: 5px;
+}
+
+.work{
+    position: absolute;
+    /* 设置绝对定位 */
+    left: 50px;
+    right: 850px;
+    /* 总体设置在整个版面的右侧区域 */
+    top: 1500px;
+    background-image: url(../imagines/WechatIMG325.jpeg);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 45px;
+    border-radius: 5px;
+}
+
+p{
+    color: #fff;
+}
+
+h1{
+    color:#fff;
+    font-size: 50px;
+}
+
+h2{
+    color: palevioletred;
+    font-size: 20px;
+}
+
+footer{
+    color:            #000d18;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+}

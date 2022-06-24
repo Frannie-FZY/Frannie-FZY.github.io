@@ -1,0 +1,103 @@
+.form {
+    overflow: hidden;
+    position: relative;
+}
+
+.bgc {
+    width: 100%;
+    /* 背景完全填充页面 */
+}
+
+.submit {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 150px;
+    /* 除顶部外边距150px，其他外边距自动 */
+    width: 600px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.3);
+    /* 设置背景颜色与透明度 */
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column; 
+    /* 设置弹性布局，并设置子控件排列方式是纵向排列。 */
+}
+.form_title {
+text-align: center;
+margin-top: 40px;
+font-size: 50px;
+}
+
+.form_input {
+padding: 0 30px;
+box-sizing: border-box;
+/* 设置带有边框的盒子 */
+display: flex;
+/* 弹性布局 */
+margin-top: 20px;
+}
+
+.inputs {
+height: 60px;
+width: 500px;
+border-radius: 5px;
+border: none;
+background-color: #eee;
+color: #666;
+padding-left: 20px;
+}
+
+.form_input span {
+width: 100px;
+align-self: center;
+/* 使子元素在副轴方向上居中 */
+}
+
+.btn_submit {
+align-self: center;
+}
+
+.btn {
+border: none;
+width: 100px;
+height: 50px;
+color: #fff;
+border-radius: 5px;
+background: rgb(194, 155, 155);
+margin-top: 40px;
+}
+
+.btn:hover {
+background: rgb(119, 114, 156);
+}
+
+.back {
+margin-left: 10px;
+}
+
+.home_href {
+border: none;
+width: 100px;
+height: 50px;
+color: #fff;
+border-radius: 5px;
+background: #5e7396;
+}
+
+.home_href:hover {
+    background: rgb(118, 160, 145);
+    }
+
+footer{
+    color:            #000d18;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+}
